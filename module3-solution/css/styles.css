@@ -10,14 +10,16 @@
     color : white;
     border-radius : 4%;
 }
+#header-nav{
+    margin-bottom : -20px;
+}
 div#nav-collapsed{
     margin-right : 50px;
     margin-left : 50px;
-    margin-top : 55px;
-    margin-bottom : -55px;
+    margin-top : 20px;
+    margin-bottom : 0px;
     text-align : center;
     background-color:#e8e8e8;
-
 }
 
 #main-content{
@@ -36,9 +38,17 @@ div#nav-collapsed{
 }
 
 #main-content .menu-items{
+    
+    padding : 10px;
+    margin-top : 25px;
+}
+#main-content .menu-items > .menu-item-holder{
     border : 2px solid whitesmoke;
     background-color :#33b784;
-    margin-top : 25px;
+    padding : 5px;
+}
+#main-content .menu-items > .menu-item-holder> p{
+    padding : 5px;
 }
 
 #main-content .menu-items , #main-content .menu-items > h2{
