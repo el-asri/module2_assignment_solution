@@ -1,4 +1,5 @@
 
+
 #nav-brand{
     color : black;
     font-weight : bold;
@@ -12,6 +13,9 @@
 }
 #header-nav{
     margin-bottom : -20px;
+}
+#header-nav > .container{
+    margin-left : 5px;
 }
 div#nav-collapsed{
     margin-right : 50px;
